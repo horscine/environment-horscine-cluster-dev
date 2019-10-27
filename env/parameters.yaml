@@ -1,0 +1,10 @@
+adminUser:
+  password: local:horscine-cluster/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: benjamin.guilloteau@gmail.com
+  token: local:horscine-cluster/pipelineUser:token
+  username: machidoine
+prow:
+  hmacToken: local:horscine-cluster/prow:hmacToken
